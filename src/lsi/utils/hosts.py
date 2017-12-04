@@ -56,7 +56,7 @@ class HostEntry(object):
         DEFAULT_COLUMNS = (os.environ["LSI_DEFAULT_ATTRIBUTES"].lower()
                            .split(","))
     else:
-        DEFAULT_COLUMNS = ['name', 'hostname', 'public_ip']
+        DEFAULT_COLUMNS = ['name', 'private_ip']
 
 
     # Maps attribute names to their "pretty" names for use in display.
